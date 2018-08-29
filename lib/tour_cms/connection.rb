@@ -72,6 +72,10 @@ module TourCMS
       request("/c/tour/datesprices/freesale/show.xml", channel, {"id" => tour})
     end
     
+    def datesndeals(tour, channel, params = {})
+      request("/c/tour/datesprices/datesndeals/search.xml", channel, params.merge({"id" => tour}))
+    end
+    
     private
     
     def generate_signature(path, verb, channel, outbound_time)
