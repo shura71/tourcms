@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{tourcms}
-  s.version = "0.3.0"
+  s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Alex Kremer"]
+  s.authors = ["Alex Kremer", "Shura Scherban"]
   s.date = %q{2011-04-20}
   s.description = %q{A simple Ruby wrapper for interacting with the TourCMS API}
-  s.email = %q{alex@flextrip.com}
+  s.email = %q{shura.71@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
